@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Database v2.0</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="script.js"></script> 
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #080808; 
+            margin: 0;
+            padding: 0;
+            color: gold; 
+        }
+
+        header {
+            background-color: #eaeef1;
+            color: #130101;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #333;
+            color: gold;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        section {
+            background-color: #080808; 
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid gold; 
+            border-radius: 3px;
+        }
+        h1{
+            color: #080808;
+        }
+
+        h2 {
+            color: rgb(232, 198, 10); 
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        
+        section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        section p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Movie Reviewing app using IBM cloud</h1>
+    </header>
+    
+    
+
+    <section>
+        <h2>Project Overview</h2>
+        <p>
+            The Movie Database v2.0 project consists of several distinct parts, each contributing to the development and deployment of a web application. Here's a detailed description of each part:
+        </p>
+        <img src="images\resourcepage-application.jpg.png" alt="Project Overview Image">
+    </section>
+
+    <section>
+        <h2>Creating a Natural Language Understanding and Cloudant Services on IBM Cloud</h2>
+        <p>
+            In this part, we set up two essential services on IBM Cloud. First, we create an instance of the Cloudant service, which will serve as our database. Second, we create an instance of the Natural Language Understanding (NLU) service, enabling us to analyze and understand textual content within the application.
+        </p>
+        <img src="images\connections.jpg.png" alt="">
+    </section>
+
+    <section>
+        <h2>Creating a CI/CD Pipeline</h2>
+        <p>
+            This section focuses on creating a continuous integration and continuous deployment (CI/CD) pipeline to streamline our development process. We start by setting up a toolchain and delivery pipeline. Then, we configure the toolchain to work with our GitHub repository. After forking the project repository into our GitHub account, we create a build stage that uses the input from the forked repository. Finally, we create a deploy stage and run both stages to ensure seamless code delivery.
+        </p>
+        <img src="images/cicdtoolchain.jpg.png" alt="">
+    </section>
+
+    <section>
+        <h2>Deployment</h2>
+        <p>
+            In this section we prepare for deployment by collecting necessary environment variables for the Cloudant service and NLU. We will use these variables in our Node.js application. The next step involves deploying our Node.js application from the Git repository to IBM Cloud Code Engine (CE) using the CLI provided in our lab environment. After deployment, we open the deployment URL to verify the functionality of our web application.
+        </p>
+        <img src="images\gitrepository.jpg.png" alt="">
+    </section>
+    <section>
+        <h2>Design of the App</h2>
+        
+        <img src="images\some.png"alt="App Design Screenshot">
+    </section>
+
+    <section>
+        <h2>Final App</h2>
+        <p>
+            Showcase the final app here with a description of its features and functionality. Include an image of the app's interface.
+        </p>
+        <img src="images\Screenshot (293).png" alt="Final App Screenshot">
+    </section>
+
+    
+
+    
+
+    
+
+    <footer>
+        <p>&copy; 2023 Mohamed muqheeth</p>
+    </footer>
+</body>
+</html>

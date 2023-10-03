@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="icon" type="image/png" href="images/NavLogi.png"> 
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/9fd0d50cac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class=""logo>
+                <ul id="sidemenu">
+                    
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">My projects</a></li>
+                    <li><a href="#certi">Certifications</a></li>
+                    <li><a href="#ko">Contact</a></li>
+                    <i id="tu"  class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i id="tu" class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <section class="showcase">
+                <video src="images\yellow_-_27803 (720p).mp4" autoplay loop muted></video>
+                <h1 class="title">I'm Mohamed muqheeth <br>
+                    Tech enthusiast, DevOps explorer <br> 
+                    Driven by a passion for progress</h1>
+                
+            </section>
+            <!-- <div class="name-text">
+                <p>
+                    Python DevOps Intern 
+                </p>
+                <h1>hey, I'm<span>muqheeth</span><br>how are ya</h1> -->
+                
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images\orginal-removebg-preview.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, sunt numquam. Libero, consequatur ad provident voluptates modi nemo! Aliquam earum voluptatem provident laborum quod modi reiciendis quis ab dolorum maiores!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Cloud</span><br>AWS and IBM cloud</li>
+                            <li><span>DevOps</span><br>Amazon web services</li>
+                               <li> Continuous Integration (CI)</li>
+                                <li> Continuous Delivery (CD)</li>
+                                <li> Version Control (Git, GitHub)</li>
+                                <li> CI/CD Tools (Jenkins)</li>
+                                <li> Containerization (Docker)</li>
+                                <li> Cloud Computing (AWS)</li>
+                                <li> Scripting (Linux Shell, Python)</li>
+                                <li> Configuration Management (Ansible)</li>
+                                <li> Agile Methodologies</li>
+                                <li> Problem Solving</li>
+                                <li> Collaboration (Git/GitHub)</li>
+                                <li> Infrastructure as Code (IAC)</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Pyspiders</span><br>
+                                        <li> DevOps </li>
+                                        <li> Linux </li>
+                                        <li> Database Management </li>
+                                        <li> Web Technology </li>
+                                        <li> CSS </li>
+                                        <li> JavaScript </li>
+                                        
+                                        <li> Python Programming</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>B.Tech Electronics and communication</span><br>Dr. M.G.R University <sub>chennai</sub></li>
+                            <li><span>Higher Secondary School</span><br>T.A.W Matriculatiob higher secondary School<sub>Ambur</sub></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- certifications -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-cloud" style="color: #c8d1df;"></i>
+                    <h2>Cloud</h2>
+                    <p>My IBM Cloud project involved harnessing cloud services and AI to develop a user-friendly Movie Database v2.0. It included setting up Cloudant and NLU services, implementing a robust CI/CD pipeline, and enhancing the web app's functionality. This project highlighted my proficiency in cloud computing, automation, and web development, delivering an innovative solution for movie enthusiasts</p>
+                    <a href="cloud.html">Learn more</a>
+                </div>
+                <div><i class="fa-brands fa-python"></i>
+                    <h2>Pyspiders</h2>
+                    <p>My transformative journey at Pyspiders encompassed a diverse spectrum of technology, from DevOps and Linux to Web Technology and Python programming. This comprehensive experience has equipped me with invaluable skills and knowledge to thrive in the ever-evolving tech landscape</p>
+                    <a href="#pyspiders">Learn more</a>
+                </div>
+                <div><i class="fa-solid fa-microchip"></i>
+                    <h2>Academic projects</h2>
+                    <p>During my engineering journey, I embarked on innovative projects, including "The Third Eye," a groundbreaking concept to aid the visually impaired through ultrasonic sensors and warning beeps. Another notable endeavor involved the design and implementation of a self-driving car system that navigated traffic signals, showcasing my passion for cutting-edge technology and problem-solving in the field of autonomous vehicles</p>
+                    <a href="academic.html">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- certifications -->
+    <div class="portfolio">
+        <div class="container">
+            <h1 class="sub-title" id="certi">certifications</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images\Coursera 97QTXQDGFG3T (1)_page-0001.jpg">
+                    <div class="layer">
+                        <i class="fa-solid fa-certificate fa-2xl"></i>
+                        <br>
+                        <h3>Cloud application development foundations</h3>
+                        <p>The IBM Cloud Application Development Foundations certification provides a solid understanding of cloud computing principles and practices. It covers topics like cloud architecture, services, and deployment models, equipping individuals with essential skills for cloud application development.</p>
+                    </div>
+                </div>
+                <div class="work">
+                 
+                    <img src="images\eCertificate_page-0001.jpg">
+                    <div class="layer">
+                        <i class="fa-solid fa-certificate fa-2xl"></i>
+                        <h3>Oracle Certified Foundations Associate</h3>
+                        <p>The Oracle Certified Foundations Associate certification offers a fundamental introduction to Oracle technologies and database management. It covers key concepts like SQL, database design, and basic database administration skills.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- extra curricular -->
+    <div class="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Extracurricular Engagement</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images\Beach.jpg">
+                    <div class="layer">
+                        <div class="rtr">
+                        <i class="fa-solid fa-hand-holding-hand"></i>
+                        <h3>Rotaract club of Dr.M.G.R E & T</h3>
+                        <p>During my tenure as a devoted member of community-oriented organizations, I actively championed the cause of underprivileged communities, forging close partnerships with NGOs to tackle diverse social and environmental issues. Together, we launched projects and campaigns with a shared mission of effecting lasting positive change.
+
+                            Throughout my community service journey, I honed and proudly exhibited strong organizational prowess. Whether it involved event coordination, logistical management, or the orchestration of community projects, I consistently showcased my ability to plan, execute, and oversee initiatives with remarkable efficiency. These organizational skills proved indispensable in ensuring the success of various community programs.</p>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="work">
+                 
+                    <img src="images\EFA.jpg">
+                    <div class="layer">
+                        <div class="rtr">
+                            <i class="fa-solid fa-file-pen"></i>
+                            <h3>Literary seminary of Dr. M.G.R E & T</h3>
+                            <p>In addition to my community involvement, I took on a leadership role in nurturing intellectual and constructive discourse. As the leader of debates, I actively encouraged critical thinking, effective communication, and the respectful exchange of ideas among my peers. This experience not only sharpened my own public speaking and argumentative skills but also created an environment of open dialogue and intellectual growth. Among the initiatives I'm particularly proud of is the "English for All" program, where we aimed to make quality English language education accessible to a broader audience. Coordinating and overseeing this effort involved meticulous planning and resource allocation, but the impact on the community's educational opportunities was profound. "English for All" not only enhanced language proficiency but also empowered individuals with valuable communication skills, opening doors to new opportunities.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- pyspider -->
+    <div id="pyspiders">
+        <div class="experience-section">
+            <div class="experience-title">My Experience at PySpiders
+                <div class="iconsd">
+                    <i class="fa-brands fa-aws"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-brands fa-linux"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-brands fa-git"></i>
+                    <i class="fa-brands fa-docker"></i>
+                </div>
+            </div>
+                <div class="experience-description">
+                    <ul>
+                        <li>Comprehensive Curriculum:
+                          <ul>
+                            <li>Explored a diverse range of topics, including DevOps, Linux, Database Management, Web Technology, CSS, JavaScript, Bootstrap, and Python programming.</li>
+                          </ul>
+                        </li>
+                      
+                        <li>DevOps Insights:
+                          <ul>
+                            <li>Gained a deep understanding of DevOps principles, evolution, and its distinctions from Agile and Waterfall models.</li>
+                            <li>Embraced core DevOps values, goals, and the pivotal Three Ways guiding the philosophy.</li>
+                            <li>Acquired skills in continuous testing, integration, delivery, and deployment, along with a toolchain understanding.</li>
+                          </ul>
+                        </li>
+                      
+                        <li>Linux Proficiency:
+                          <ul>
+                            <li>Mastered Linux basics, including fundamental commands and shell scripting.</li>
+                            <li>Set up cloud environments, created virtual machines, and deployed applications on AWS EC2 instances.</li>
+                          </ul>
+                        </li>
+                      
+                        <li>Version Control and Build Management:
+                          <ul>
+                            <li>Learned the importance of source code management through Git and collaborative workflows on GitHub.</li>
+                            <li>Utilized Maven for build management, understanding its architecture and deployment automation capabilities.</li>
+                          </ul>
+                        </li>
+                      
+                        <li>CI/CD Expertise:
+                          <ul>
+                            <li>Implemented continuous integration and delivery principles with Jenkins, including setup, configuration, and pipeline creation.</li>
+                          </ul>
+                        </li>
+                      
+                        <li>Diverse Skill Set:
+                          <ul>
+                            <li>Gained proficiency in cloud computing and AWS services.</li>
+                            <li>Explored containerization and orchestration with Docker and Kubernetes.</li>
+                            <li>Streamlined configuration management using Ansible.</li>
+                            <li>Developed competence in monitoring with Nagios.</li>
+                            <li>Acquired web development skills with HTML, CSS, JavaScript, Bootstrap, and versatile Python programming.</li>
+                          </ul>
+                        </li>
+                      </ul>
+                      
+                    
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact -->
+    
+        <div class="contact" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        
+                        <p><i class="fa-solid fa-envelope"></i>mohamedmuqheeth11@gmail.com</p>
+                        <p><i class="fa-solid fa-mobile-screen"></i>8122318515</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/mohamedmuqheet"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/mohamed-muqheeth-2483b11b1"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images\mohamed_muqheeth.pdf" download class="btn">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email id" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn2">submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+                    <div class="copyright" id="ko">
+                        <p>&copy; All rights reserved mohamed_muqheeth 2023</p>
+                    </div>
+            </div>
+        </div>
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz8Vhyf1MOYhzYOlZDS4gNE1Qjg79MyPGhOPf1Jph_lpGla51e6eO0O4kiBXdmju9_c/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Hey Thanks for reaching out :)"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+            
+        }
+
+      </script>
+    
+</body>
+</html>
